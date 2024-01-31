@@ -13,7 +13,7 @@ Prior to turning in your assignment, complete the following checklist in regards
 
 #### Formatted Code Check
 
-- [ ] Use Prettier to properly format your HTML code.
+- [x] Use Prettier to properly format your HTML code.
 - [ ] Use Prettier to properly format your CSS code.
 - [ ] Use Prettier to properly format your JavaScript code.
 
