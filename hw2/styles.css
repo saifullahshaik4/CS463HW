@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--black);
 }
@@ -28,8 +28,60 @@ form {
 
 /* Code for exercise 01-navbar */
 
-/* Code for exercise 02-cards */
+.navbar {
+  padding: 25px;
+  text-align: right;
+  background-color: var(--black);
+}
+
+.navbar-list {
+  margin: 0;
+}
+
+.navbar-item {
+  display: inline;
+}
+
+.navbar-link {
+  padding: 25px;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: var(--violetred);
+}
 
 /* Code for exercise 03-table */
+.tv-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:hover {
+  background-color: var(--orange);
+}
+
+th {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+  width: 20%;
+}
+
+td {
+  border: 1px solid var(--black);
+  padding: 20px;
+}
+
+td:first-child {
+  background-color: var(--violetred);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+}
 
 /* Code for exercise 04-form */
+
+/* Code for exercise 05-cards */
