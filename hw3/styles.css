@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
   color: var(--black);
 }
@@ -37,7 +37,21 @@ form {
 
 /* Code for exercise 02-form */
 
+legend {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1em;
+}
 /* Code for exercise 03-starships */
+
+.btn:hover {
+  background-color: var(--violetred);
+}
 
 .btn-group {
   margin: auto;
@@ -50,4 +64,47 @@ form {
 .btn {
   width: 80px;
   padding: 10px;
+  border-radius: 0px;
+  border: 0;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.starship-component {
+  border-radius: 20px;
+  width: 560px;
+  background-color: var(--white);
+  margin: 10px;
+}
+
+.top-grid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.middle-grid {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.bottom-grid {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.stat-col {
+  width: 50%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
