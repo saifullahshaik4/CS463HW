@@ -25,7 +25,12 @@ body {
 
 .dark-background-container {
   background: var(--dark-blue);
-  background: linear-gradient(34deg, var(--dark-blue) 6%, var(--blue) 46%, var(--purple) 91%);
+  background: linear-gradient(
+    34deg,
+    var(--dark-blue) 6%,
+    var(--blue) 46%,
+    var(--purple) 91%
+  );
   color: var(--white);
 }
 
@@ -49,7 +54,7 @@ body {
   text-align: center;
   background-color: var(--darker-blue);
   color: var(--white);
-  border: 1px solid var(--darker-blue);
+  border: 1px solid var(--dark-blue);
   width: 180px;
   margin: 0 auto;
   font-family: inherit;
@@ -129,7 +134,7 @@ body {
   width: 200px;
   background-color: var(--light-blue);
   color: black;
-  border: 1px solid var(--light-blue);
+  border: 1px solid var(--dark-blue);
   font-family: inherit;
   font-size: 1rem;
   display: block;
@@ -140,7 +145,7 @@ body {
 .form-button:hover {
   background-color: var(--darker-blue);
   color: var(--white);
-  border: 1px solid var(--darker-blue);
+  border: 1px solid var(--light-blue);
   cursor: pointer;
   transition: 0.25s;
 }
